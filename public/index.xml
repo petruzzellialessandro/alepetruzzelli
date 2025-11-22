@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>alepetruzzelli</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on alepetruzzelli</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music Stuff</title>
+      <link>http://localhost:1313/posts/musicstuff/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/musicstuff/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;p&gt;Nothing to see here&amp;hellip; Move along!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description>&lt;p&gt;Here you can find a list of my publications, automatically updated from ORCID.&lt;/p&gt;&#xA;&lt;div id=&#34;publications-list&#34;&gt;&#xA;    &lt;i class=&#34;fas fa-spinner fa-spin&#34;&gt;&lt;/i&gt; Loading publications...&#xA;&lt;/div&gt;&#xA;&lt;script&gt;&#xA;    document.addEventListener(&#34;DOMContentLoaded&#34;, function() {&#xA;        // TODO: Replace &#39;PUT_YOUR_ORCID_HERE&#39; with your actual ORCID iD (e.g., &#39;0000-0002-1825-0097&#39;)&#xA;        const orcidId = &#39;0009-0008-2880-6715&#39;; &#xA;        &#xA;        if (orcidId === &#39;PUT_YOUR_ORCID_HERE&#39;) {&#xA;            document.getElementById(&#39;publications-list&#39;).innerHTML = &#39;Please update the ORCID iD in content/publications.md&#39;;&#xA;            return;&#xA;        }&#xA;        &#xA;        const apiUrl = `https://pub.orcid.org/v3.0/${orcidId}/works`;&#xA;&#xA;        fetch(apiUrl, {&#xA;            headers: {&#xA;                &#39;Accept&#39;: &#39;application/json&#39;&#xA;            }&#xA;        })&#xA;        .then(response =&gt; {&#xA;            if (!response.ok) {&#xA;                throw new Error(&#39;Network response was not ok&#39;);&#xA;            }&#xA;            return response.json();&#xA;        })&#xA;        .then(data =&gt; {&#xA;            const works = data.group;&#xA;            const listContainer = document.getElementById(&#39;publications-list&#39;);&#xA;            listContainer.innerHTML = &#39;&#39;; // Clear loading message&#xA;&#xA;            if (works.length === 0) {&#xA;                listContainer.innerHTML = &#39;No publications found.&#39;;&#xA;                return;&#xA;            }&#xA;&#xA;            const ul = document.createElement(&#39;ul&#39;);&#xA;&#xA;            works.forEach(group =&gt; {&#xA;                const workSummary = group[&#39;work-summary&#39;][0];&#xA;                const title = workSummary.title.title.value;&#xA;                const year = workSummary[&#39;publication-date&#39;] ? workSummary[&#39;publication-date&#39;].year.value : &#39;n.d.&#39;;&#xA;                const journal = workSummary[&#39;journal-title&#39;] ? workSummary[&#39;journal-title&#39;].value : &#39;&#39;;&#xA;                const url = workSummary.url ? workSummary.url.value : `https://doi.org/${workSummary[&#39;external-ids&#39;][&#39;external-id&#39;][0][&#39;external-id-value&#39;]}`;&#xA;                &#xA;                const li = document.createElement(&#39;li&#39;);&#xA;                li.innerHTML = `&#xA;                    &lt;strong&gt;&lt;a href=&#34;${url}&#34; target=&#34;_blank&#34;&gt;${title}&lt;/a&gt;&lt;/strong&gt; (${year})&#xA;                    &lt;br&gt;&#xA;                    ${journal}&#xA;                `;&#xA;                ul.appendChild(li);&#xA;            });&#xA;&#xA;            listContainer.appendChild(ul);&#xA;        })&#xA;        .catch(error =&gt; {&#xA;            console.error(&#39;Error fetching ORCID data:&#39;, error);&#xA;            document.getElementById(&#39;publications-list&#39;).innerHTML = &#39;Failed to load publications. Please check the ORCID iD.&#39;;&#xA;        });&#xA;    });&#xA;&lt;/script&gt;</description>
+    </item>
+  </channel>
+</rss>

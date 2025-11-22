@@ -1,0 +1,39 @@
+/* Add spacing to enable scrolling */
+body {
+    min-height: 150vh;
+    /* Ensures there's enough page height to scroll */
+}
+
+/* Scroll reveal section */
+.scroll-reveal-section {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80vh;
+    /* Push it further down so it's not visible initially */
+    /* Push it down so it's below the viewport initially */
+}
+
+.scroll-reveal-content {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+}
+
+.scroll-reveal-content.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scroll-reveal-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
