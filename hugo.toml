@@ -146,9 +146,14 @@ url = "https://www.linkedin.com/in/johndoe/"
 languageName = ":uk:"
 
 [[languages.en.menu.main]]
-name = "Blog"
+name = "Research"
 weight = 2
-url = "posts/"
+url = "research/"
+
+[[languages.en.menu.main]]
+name = "Passions"
+weight = 3
+url = "passions/"
 
 [[languages.en.menu.main]]
 name = "Publications"
@@ -157,5 +162,28 @@ url = "publications/"
 
 [[languages.en.menu.main]]
 name = "Contact me"
+weight = 5
+url = "contact/"
+
+[languages.it]
+languageName = ":it:"
+
+[[languages.it.menu.main]]
+name = "Ricerca"
+weight = 2
+url = "research/"
+
+[[languages.it.menu.main]]
+name = "Passioni"
+weight = 3
+url = "passions/"
+
+[[languages.it.menu.main]]
+name = "Pubblicazioni"
+weight = 4
+url = "publications/"
+
+[[languages.it.menu.main]]
+name = "Contattami"
 weight = 5
 url = "contact/"
