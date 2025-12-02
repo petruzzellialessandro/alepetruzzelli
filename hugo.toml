@@ -146,9 +146,21 @@ url = "https://www.linkedin.com/in/johndoe/"
 languageName = ":uk:"
 
 [[languages.en.menu.main]]
-name = "Research"
+identifier = "academic"
+name = "Academic"
 weight = 2
+
+[[languages.en.menu.main]]
+parent = "academic"
+name = "Research"
+weight = 1
 url = "research/"
+
+[[languages.en.menu.main]]
+parent = "academic"
+name = "Teaching"
+weight = 2
+url = "research/teaching/"
 
 [[languages.en.menu.main]]
 name = "Passions"
@@ -169,9 +181,21 @@ url = "contact/"
 languageName = ":it:"
 
 [[languages.it.menu.main]]
-name = "Ricerca"
+identifier = "academic"
+name = "Accademia"
 weight = 2
+
+[[languages.it.menu.main]]
+parent = "academic"
+name = "Ricerca"
+weight = 1
 url = "research/"
+
+[[languages.it.menu.main]]
+parent = "academic"
+name = "Didattica"
+weight = 2
+url = "research/teaching/"
 
 [[languages.it.menu.main]]
 name = "Passioni"
@@ -187,3 +211,7 @@ url = "publications/"
 name = "Contattami"
 weight = 5
 url = "contact/"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

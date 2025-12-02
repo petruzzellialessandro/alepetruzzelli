@@ -1,0 +1,21 @@
+---
+title: "Didattica"
+---
+
+
+
+## Semantics in Intelligent Information Access (2024-2025)
+
+### Large Language Models for Recommender Systems
+*   **Descrizione:** Panoramica sull'utilizzo dei Large Language Models nei Sistemi di Raccomandazione.
+*   **Lingua:** Inglese
+*   [Scarica le slide](/research/teaching/slides/LLMRS.pdf)
+
+## Metodi per il ritrovamento dell'informazione (2024-2025)
+
+### Prompt Engineering
+*   **Descrizione:** Un'introduzione alle tecniche di prompt engineering per i Large Language Models.
+*   **Lingua:** Italiano
+*   [Scarica le slide](/research/teaching/slides/LLMPrompting.pdf)
+
+

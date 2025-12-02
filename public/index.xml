@@ -30,6 +30,13 @@
       <description>&lt;p&gt;Nothing to see here&amp;hellip; Move along!&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Contact me</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;h3 id=&#34;institutional-email&#34;&gt;&#xA;  Institutional Email&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#institutional-email&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;mailto:alessandro.petruzzelli@uniba.it&#34; &gt;alessandro.petruzzelli@uniba.it&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;location&#34;&gt;&#xA;  Location&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#location&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;You can find me at the &lt;strong&gt;4th floor&lt;/strong&gt; of the &lt;strong&gt;Department of Computer Science&lt;/strong&gt; of &lt;strong&gt;University of Bari Aldo Moro&lt;/strong&gt;&lt;br&gt;&#xA;Via Edoardo Orabona 4&lt;br&gt;&#xA;&lt;strong&gt;SWAP Research Group&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Publications</title>
       <link>http://localhost:1313/publications/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>

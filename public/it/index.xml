@@ -9,7 +9,7 @@
     <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/it/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>That time that I fell in love with Madame</title>
+      <title>Leopardi, la Trap e il pregiudizio dell&#39;Impegno</title>
       <link>http://localhost:1313/it/passions/madamewild/</link>
       <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/it/passions/madamewild/</guid>
@@ -21,6 +21,13 @@
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/it/about/</guid>
       <description>&lt;p&gt;Ciao! Sono Alessandro Petruzzelli, un dottorando in Intelligenza Artificiale.&lt;/p&gt;&#xA;&lt;p&gt;(Contenuto in italiano da aggiungere&amp;hellip;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contattami</title>
+      <link>http://localhost:1313/it/contact/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/contact/</guid>
+      <description>&lt;h3 id=&#34;email-istituzionale&#34;&gt;&#xA;  Email Istituzionale&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#email-istituzionale&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;mailto:alessandro.petruzzelli@uniba.it&#34; &gt;alessandro.petruzzelli@uniba.it&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;dove-trovarmi&#34;&gt;&#xA;  Dove trovarmi&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#dove-trovarmi&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Mi trovi al &lt;strong&gt;4° piano&lt;/strong&gt; del &lt;strong&gt;Dipartimento di Informatica&lt;/strong&gt; dell&amp;rsquo;&lt;strong&gt;Università degli Studi di Bari Aldo Moro&lt;/strong&gt;&lt;br&gt;&#xA;Via Edoardo Orabona 4&lt;br&gt;&#xA;&lt;strong&gt;Gruppo di ricerca SWAP&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Progetti</title>

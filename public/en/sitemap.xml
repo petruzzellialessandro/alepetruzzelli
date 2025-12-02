@@ -80,22 +80,6 @@
                 href="http://localhost:1313/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/research/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/it/research/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/research/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/research/teaching/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/publications/</loc>
     <lastmod>2023-10-25T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -133,6 +117,18 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/research/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/research/"
+                />
+  </url><url>
     <loc>http://localhost:1313/series/</loc>
     <xhtml:link
                 rel="alternate"
@@ -155,6 +151,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/research/teaching/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="http://localhost:1313/it/research/teaching/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/research/teaching/"
                 />
   </url>
 </urlset>

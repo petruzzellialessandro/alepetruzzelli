@@ -1,0 +1,85 @@
+{{ range .Site.Params.customCSS }}
+{{ if hugo.IsServer }}
+{{ $styles := resources.Get . }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen">
+{{ else }}
+{{ $styles := resources.Get . | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"
+    crossorigin="anonymous" media="screen" />
+{{ end }}
+{{ end }}
+
+{{ range .Site.Params.customSCSS }}
+{{/* We don't change the targetPath to because it's transparent to users */}}
+{{ if hugo.IsServer }}
+{{ $cssOpts := (dict "enableSourceMap" true ) }}
+{{ $styles := resources.Get . | toCSS $cssOpts }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen">
+{{ else }}
+{{ $styles := resources.Get . | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"
+    crossorigin="anonymous" media="screen" />
+{{ end }}
+{{ end }}
+
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        border-radius: 5px;
+        padding: 5px 0;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Dark mode adjustments */
+    body.colorscheme-dark .dropdown-content {
+        background-color: #212121;
+        border: 1px solid #333;
+    }
+
+    body.colorscheme-dark .dropdown-content a {
+        color: #dadada;
+    }
+
+    body.colorscheme-dark .dropdown-content a:hover {
+        background-color: #333;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        body:not(.colorscheme-light) .dropdown-content {
+            background-color: #212121;
+            border: 1px solid #333;
+        }
+
+        body:not(.colorscheme-light) .dropdown-content a {
+            color: #dadada;
+        }
+
+        body:not(.colorscheme-light) .dropdown-content a:hover {
+            background-color: #333;
+        }
+    }
+</style>
