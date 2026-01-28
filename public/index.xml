@@ -6,8 +6,15 @@
     <description>Recent content on alepetruzzelli</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Curriculum</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;p&gt;You can view and download my complete Curriculum Vitae from the link below:&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center; margin: 2rem 0;&#34;&gt;&#xA;    &lt;a href=&#34;_Petruzzelli_CV_Resume.pdf&#34; class=&#34;button&#34; target=&#34;_blank&#34;&gt;&#xA;        &lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download CV (PDF)&#xA;    &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;embed src=&#34;_Petruzzelli_CV_Resume.pdf&#34; width=&#34;100%&#34; height=&#34;800px&#34; type=&#34;application/pdf&#34; style=&#34;min-height: 80vh;&#34;&gt;</description>
+    </item>
     <item>
       <title>Leopardi, Trap, and the Bias of Conscious Music</title>
       <link>http://localhost:1313/passions/madamewild/</link>
@@ -42,6 +49,13 @@
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/</guid>
       <description>&lt;p&gt;Here you can find a list of my publications, automatically updated from my &lt;a href=&#34;https://orcid.org/0009-0008-2880-6715&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ORCID profile&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;div id=&#34;publications-list&#34;&gt;&#xA;    &lt;div class=&#34;loading-message&#34;&gt;&#xA;        &lt;i class=&#34;fas fa-spinner fa-spin&#34;&gt;&lt;/i&gt; Loading publications...&#xA;    &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;style&gt;&#xA;    .loading-message {&#xA;        text-align: center;&#xA;        padding: 20px;&#xA;        font-size: 1.2rem;&#xA;        color: #666;&#xA;    }&#xA;    &#xA;    .year-group {&#xA;        margin-bottom: 2.5rem;&#xA;    }&#xA;    &#xA;    .year-heading {&#xA;        border-bottom: 2px solid var(--primary-color, #212121);&#xA;        padding-bottom: 0.5rem;&#xA;        margin-bottom: 1.5rem;&#xA;        font-size: 1.8rem; /* Increased font size */&#xA;        font-weight: bold;&#xA;    }&#xA;    &#xA;    .publication-item {&#xA;        margin-bottom: 1.5rem;&#xA;        padding-bottom: 1.5rem;&#xA;        border-bottom: 1px solid rgba(150, 150, 150, 0.2);&#xA;    }&#xA;    &#xA;    .publication-item:last-child {&#xA;        border-bottom: none;&#xA;    }&#xA;    &#xA;    .pub-title {&#xA;        font-size: 1.7rem; /* Increased font size */&#xA;        font-weight: 600;&#xA;        margin-bottom: 0.4rem;&#xA;        display: block;&#xA;        line-height: 1.4;&#xA;    }&#xA;    &#xA;    .pub-title a {&#xA;        text-decoration: none;&#xA;    }&#xA;&#xA;    .pub-title a:hover {&#xA;        text-decoration: underline;&#xA;    }&#xA;    &#xA;    .pub-journal {&#xA;        font-size: 1.1rem; /* Increased font size */&#xA;        font-style: italic;&#xA;        color: #555;&#xA;        display: block;&#xA;        margin-top: 0.2rem;&#xA;    }&#xA;&#xA;    /* Dark mode adjustments */&#xA;    @media (prefers-color-scheme: dark) {&#xA;        .year-heading { border-color: #e0e0e0; }&#xA;        .pub-journal { color: #bbb; }&#xA;        .publication-item { border-color: rgba(255, 255, 255, 0.1); }&#xA;    }&#xA;    &#xA;    body.colorscheme-dark .year-heading { border-color: #e0e0e0; }&#xA;    body.colorscheme-dark .pub-journal { color: #bbb; }&#xA;    body.colorscheme-dark .publication-item { border-color: rgba(255, 255, 255, 0.1); }&#xA;&lt;/style&gt;&#xA;&lt;script&gt;&#xA;    document.addEventListener(&#34;DOMContentLoaded&#34;, function() {&#xA;        const orcidId = &#39;0009-0008-2880-6715&#39;; &#xA;        const apiUrl = `https://pub.orcid.org/v3.0/${orcidId}/works`;&#xA;&#xA;        const listContainer = document.getElementById(&#39;publications-list&#39;);&#xA;&#xA;        fetch(apiUrl, {&#xA;            headers: { &#39;Accept&#39;: &#39;application/json&#39; }&#xA;        })&#xA;        .then(response =&gt; {&#xA;            if (!response.ok) throw new Error(&#39;Network response was not ok&#39;);&#xA;            return response.json();&#xA;        })&#xA;        .then(data =&gt; {&#xA;            const groups = data.group;&#xA;            listContainer.innerHTML = &#39;&#39;; // Clear loading message&#xA;&#xA;            if (!groups || groups.length === 0) {&#xA;                listContainer.innerHTML = &#39;&lt;p&gt;No publications found on ORCID.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>404 Page not found</title>
+      <link>http://localhost:1313/404.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/404.html</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Whoops!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The page you were looking for seems to have gone on a little adventure.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34; &gt;Go back to Home&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

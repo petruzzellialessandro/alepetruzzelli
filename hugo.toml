@@ -1,4 +1,4 @@
-baseURL = 'https://petruzzellialessandro.github.io/alepetruzzelli/'
+baseURL = 'https://petruzzellialessandro.github.io'
 title = "alepetruzzelli"
 languageCode = 'en-us'
 theme = "hugo-coder"
@@ -134,13 +134,13 @@ author = "authors"
 name = "Github"
 icon = "fa-brands fa-github fa-2x"
 weight = 1
-url = "https://github.com/johndoe/"
+url = "https://github.com/petruzzellialessandro"
 
 [[params.social]]
 name = "LinkedIn"
 icon = "fa-brands fa-linkedin fa-2x"
 weight = 4
-url = "https://www.linkedin.com/in/johndoe/"
+url = "https://www.linkedin.com/in/ale-petruzzelli/"
 
 [languages.en]
 languageName = ":uk:"
@@ -177,6 +177,11 @@ name = "Contact me"
 weight = 5
 url = "contact/"
 
+[[languages.en.menu.main]]
+name = "Curriculum"
+weight = 6
+url = "cv/"
+
 [languages.it]
 languageName = ":it:"
 
@@ -211,6 +216,11 @@ url = "publications/"
 name = "Contattami"
 weight = 5
 url = "contact/"
+
+[[languages.it.menu.main]]
+name = "Curriculum"
+weight = 6
+url = "cv/"
 
 [caches]
   [caches.images]
