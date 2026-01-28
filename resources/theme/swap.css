@@ -1,0 +1,195 @@
+/* @theme swap */
+
+@import "default";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+:root {
+  --color-background: #FFFFFF;
+  --color-text-primary: #333333;
+  --color-footer-bg: #000080;
+  /* Navy */
+  --color-footer-text: #FFFFFF;
+
+  --color-h1: #000080;
+  /* Navy */
+
+  /* Accents from footer dots */
+  --accent-green: #0d276e;
+  --accent-orange: #fd7e14;
+  --accent-red: #dc3545;
+
+  /* Code block */
+  --color-code-bg: #dbe99593;
+  /* A neutral dark gray */
+  --color-code-text: #000000;
+  background-image: url("https://raw.githubusercontent.com/petruzzellialessandro/petruzzellialessandro.github.io/main/resources/theme/background.svg");
+  background-size: 100%;
+  padding-top: 0%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text-primary);
+  background-image: url("/Users/alepetruz/Library/CloudStorage/OneDrive-UniversitàdegliStudidiBari/Dottorato_/Didattica/MasterLesson/background.svg");
+  background-size: 100%;
+}
+
+/* 
+================================
+  2. Typography & Section
+================================
+*/
+h1 {
+  color: var(--color-h1);
+  font-weight: 500;
+}
+
+h2 {
+  color: var(--color-h1);
+}
+
+h3 {
+  color: var(--accent-green);
+  /* Using accent for h3 */
+  font-weight: 400;
+}
+
+footer {
+  color: var(--color-footer-text);
+}
+
+section::after {
+  color: var(--color-footer-text);
+  font-size: medium;
+  margin-top: 10%;
+}
+
+/* ================================
+  3. Table Style (Cleaned up)
+================================
+*/
+table {
+  width: 100%;
+  /* Or 'fit-content' if you prefer */
+  margin: 1.5em auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: var(--color-h1);
+  font-weight: 500;
+}
+
+/* Adds a subtle stripe for readability */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+td {
+  font-size: smaller;
+}
+
+
+/* ================================
+  4. Code Block Style (Simplified)
+================================
+*/
+pre {
+  background-color: var(--color-code-bg);
+  border: none;
+  border-radius: 10px;
+  /* Simplified radius */
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.1);
+  /* Standard subtle shadow */
+}
+
+/* Cody syntax highlighting: tomorrow-night-blue */
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: var(--color-code-bg);
+  /* Matches 'pre' background */
+  color: #f8f8f8;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #7285b7;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #ff9da4;
+}
+
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #ffc58f;
+}
+
+.hljs-attribute {
+  color: #ffeead;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #480a13;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #bbdaff;
+}
+
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #ebbbff;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+/* ================================
+  5. Layout
+================================
+*/
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
