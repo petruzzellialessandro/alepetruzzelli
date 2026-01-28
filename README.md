@@ -11,4 +11,4 @@ This site serves as a portfolio of my work, research, and passions. It includes:
 
 The website is built using [Hugo](https://gohugo.io/) and hosted on GitHub Pages.
 
-Feel free to explore the live site at: [https://petruzzellialessandro.github.io/alepetruzzelli/](https://petruzzellialessandro.github.io/alepetruzzelli/)
+Feel free to explore the live site at: [https://petruzzellialessandro.github.io/](https://petruzzellialessandro.github.io/)
