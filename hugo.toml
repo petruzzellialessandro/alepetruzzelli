@@ -146,18 +146,6 @@ url = "https://www.linkedin.com/in/ale-petruzzelli/"
 languageName = ":uk:"
 
 [[languages.en.menu.main]]
-identifier = "academic"
-name = "Academic"
-weight = 2
-
-[[languages.en.menu.main]]
-parent = "academic"
-name = "Research"
-weight = 1
-url = "research/"
-
-[[languages.en.menu.main]]
-parent = "academic"
 name = "Teaching"
 weight = 2
 url = "research/teaching/"
@@ -186,18 +174,6 @@ url = "cv/"
 languageName = ":it:"
 
 [[languages.it.menu.main]]
-identifier = "academic"
-name = "Accademia"
-weight = 2
-
-[[languages.it.menu.main]]
-parent = "academic"
-name = "Ricerca"
-weight = 1
-url = "research/"
-
-[[languages.it.menu.main]]
-parent = "academic"
 name = "Didattica"
 weight = 2
 url = "research/teaching/"

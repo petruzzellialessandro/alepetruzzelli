@@ -3,7 +3,12 @@ title: "Didattica"
 ---
 
 
+## Master in Generative AI (2026)
 
+### Accesso a conoscenza esterna tramite RAG
+*   **Descrizione:** Lezione sull'accesso a conoscenza esterna tramite RAG coprendo tecniche di chunking, embedding, indexing e valutazione.
+*   **Lingua:** Italiano
+*   [Scarica le slide](slides/RAG.pdf)
 
 ## Semantics in Intelligent Information Access (2024-2025)
 
